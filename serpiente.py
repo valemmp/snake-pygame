@@ -1,7 +1,6 @@
 import pygame
 import random
 
-
 class Cuerpo:
     def __init__(self, ventana):
         self.x = 0
