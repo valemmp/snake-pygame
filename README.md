@@ -29,7 +29,7 @@
 
 <h2>🖼️ Screenshots / GIF</h2>
 <p align="center">
-  <img src="snake.gif" alt="Snake Game" width="400"/>
+  <img src="assets/snake.gif" alt="Snake Game" width="400"/>
 </p>
 
 ---
