@@ -1,60 +1,41 @@
-<h1 align="center">🐍 Snake Game in Python</h1>
+# Snake Game in Python
 
-<p align="center">
-  Classic Snake game made with Python and Pygame. Control the snake with arrow keys and eat red apples to grow!
-</p>
+Un juego clásico de Snake hecho en Python usando Pygame.
 
----
+El objetivo es conseguir puntos comiendo las manzanas y hacer crecer la serpiente sin chocar contra sí misma.
 
-<h2>🎮 How to Play</h2>
-<ol>
-  <li>Install <strong>Python 3</strong> on your computer.</li>
-  <li>Install <strong>Pygame</strong>:
-    <pre><code>pip install pygame</code></pre>
-  </li>
-  <li>Run the game:
-    <pre><code>python snake.py</code></pre>
-  </li>
-  <li>Use the arrow keys to move the snake:
-    <ul>
-      <li>⬆️ Up</li>
-      <li>⬇️ Down</li>
-      <li>⬅️ Left</li>
-      <li>➡️ Right</li>
-    </ul>
-  </li>
-</ol>
+## Cómo ejecutarlo
 
----
+Necesitás tener Python 3 instalado.
 
-<h2>🖼️ Screenshots / GIF</h2>
-<p align="center">
-  <img src="assets/snake.gif" alt="Snake Game" width="400"/>
-</p>
+Primero instalá Pygame:
 
----
+pip install pygame
 
-<h2>⚡ Features</h2>
-<ul>
-  <li>Snake grows when eating apples.</li>
-  <li>Continuous movement.</li>
-  <li>Self-collision detection (game over).</li>
-  <li>Screen wrapping at edges.</li>
-</ul>
+Después ejecutá:
+
+python snake.py
+
+## Controles
+
+Usá las flechas del teclado para mover la serpiente:
+
+- Flecha arriba
+- Flecha abajo
+- Flecha izquierda
+- Flecha derecha
+
+## Algunas características
+
+- La serpiente crece al comer manzanas.
+- La serpiente se mueve continuamente.
+- El juego termina si la serpiente choca contra sí misma.
+- La pantalla tiene un sistema de wrap-around: al salir por un borde, la serpiente aparece por el lado opuesto.
+
+## Captura
+
+![Snake Game](assets/snake.gif)
 
 ---
 
-<h2>🛠️ Technologies</h2>
-<ul>
-  <li>Python 3</li>
-  <li>Pygame</li>
-</ul>
-
----
-
-<h2>👤 Author</h2>
-<p>
-  Valentín Mansilla<br/>
-  <a href="https://www.linkedin.com/in/valentin-mansilla-154a5028b/" target="_blank">LinkedIn</a> |
-  <a href="https://github.com/valemmp" target="_blank">GitHub</a>
-</p>
+Este fue uno de mis primeros proyectos en Python y lo hice para practicar la lógica básica de un juego y familiarizarme con Pygame.
