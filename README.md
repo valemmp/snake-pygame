@@ -1,4 +1,4 @@
-# Snake Game in Python
+# Snake Game en Python
 
 Un juego clásico de Snake hecho en Python usando Pygame.
 
